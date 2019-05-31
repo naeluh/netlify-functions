@@ -1,3 +1,5 @@
-export default function getFunctions() {
-  console.log("dude");
+function getFunctions() {
+  console.log("getFunctions");
 }
+
+module.exports = getFunctions;
